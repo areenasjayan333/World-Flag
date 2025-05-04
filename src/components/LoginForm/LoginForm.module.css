@@ -1,0 +1,83 @@
+.createAnAccount {
+  color: #587fff;
+  font-weight: 200;
+}
+.loginTextField {
+  border-radius: 0;
+  border-color: black;
+  width: 100%;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: block;
+}
+.loginTextField::placeholder {
+  color: #3d3d3d;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.errorText {
+  font-size: 13px;
+  color: red;
+}
+
+.keepMeSignedInLabel {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.customCheckbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #3d3d3d;
+  border-radius: 0;
+  cursor: pointer;
+  position: relative;
+  margin-right: 8px;
+  background-color: #f2f2f2;
+}
+
+.customCheckbox:checked::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 7px;
+  width: 4px;
+  height: 9px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.submitButton {
+  background-color: #3c3c3c;
+  border-radius: 0;
+  color: white;
+  width: 100%;
+  margin-top: 8px;
+  padding: 0.5rem;
+}
+
+.lineWithText {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2.4rem 0rem 0.9rem 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lineWithText::before,
+.lineWithText::after {
+  content: "";
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}

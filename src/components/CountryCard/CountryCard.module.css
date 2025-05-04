@@ -1,0 +1,28 @@
+.flagCard {
+  border: 2px solid #3e3e3e !important;
+  border-radius: 0px !important;
+  box-shadow: 7px 7px #3e3e3e22;
+  cursor: pointer;
+}
+
+.flagCard:hover {
+  box-shadow: 6px 6px #3e3e3e37;
+}
+
+.flagImg {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border: none;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.flagCardTitle {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+.flagCardSubTitle {
+  font-size: 0.9rem !important;
+  color: #6f6f6f !important;
+}

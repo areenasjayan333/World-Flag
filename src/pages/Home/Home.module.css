@@ -1,0 +1,57 @@
+.lineWithText {
+  display: flex;
+
+  margin: 0rem 0;
+  padding: 0px;
+  font-size: 2.6rem;
+  font-weight: 700 !important;
+  margin-bottom: 2rem;
+}
+
+.lineWithText::before {
+  content: "";
+  flex: 1;
+  border-top: 3px solid #3d3d3d;
+  margin: 0 10px;
+}
+
+.lineWithText::after {
+  content: "";
+  flex: 1;
+  border-bottom: 3px solid #3d3d3d;
+  margin: 0 10px;
+}
+
+.loadMoreButton {
+  background-color: #3c3c3c;
+  font-size: 1rem;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+}
+
+.socialIcons {
+  width: 30%;
+}
+
+@media (max-width: 480px) {
+  .lineWithText {
+    display: block;
+
+    padding: 5px;
+    border-bottom: 2px solid #3d3d3d;
+    text-align: center;
+    border-top: 2px solid #3d3d3d;
+    margin: 2rem 0.8rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .loadMoreButton {
+    margin-top: 20px;
+  }
+
+  .socialIcons {
+    width: 80%;
+  }
+}

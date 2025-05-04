@@ -1,0 +1,17 @@
+.activeRegion {
+  font-weight: 600 !important;
+  padding-bottom: 4px !important;
+
+  border-bottom: 2px solid #000 !important;
+}
+
+@media (max-width: 480px) {
+  .activeRegion {
+    font-weight: 600 !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 10px !important;
+
+    padding-left: 0px !important;
+    border-bottom: 2px solid #000 !important;
+  }
+}
