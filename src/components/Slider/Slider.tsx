@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import styles from "./Slider.module.css";
 
